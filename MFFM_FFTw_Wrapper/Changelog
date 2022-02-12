@@ -1,0 +1,17 @@
+v1.5 April 2005
+ * Alteres complex fftdata to use fftw_malloc and fftw_free.
+
+v1.4 : Fix merrory allocation error in real2DFFT.cc variable realXSum
+
+v1.3 : Change from fftw2 to fftw3 ... should be more efficient
+	This is 100% backwards compatable with the API for v1.2
+	Re-documented (*.H -> html) ... API docs should be alot better
+	Ensured all examples for realFFT, complexFFT and real2DFFT work
+
+v1.2 : complex fft switchData function implemented
+
+v1.1 : Change-log begun
+	separated the realFFT and realFFTData classes
+	improved the documentation
+	fixed the realFFTExample example file
+	other major adjustments not listed

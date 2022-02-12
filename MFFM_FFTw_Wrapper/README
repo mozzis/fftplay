@@ -1,0 +1,11 @@
+Copyright 1999,2000,2001,2002 Matt Flax <flatmax@ieee.org>
+
+This library acts as a C++ wrapper for the http://www.fftw.org FFT library.
+It provides many usefull functions, including data handling and manipulation.
+
+For API documentation, consult the html directory released with the sources
+
+For examples of how to use this library, consult the *Example* files.
+
+This library manages FFTw data. It also processes it to find power spectra 
+and so on. It also manages the fft forward an inverse FFT routines.
